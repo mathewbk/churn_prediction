@@ -1,0 +1,12 @@
+artifact_path: Random_Forest_Churn_Prediction
+flavors:
+  python_function:
+    data: sparkml
+    env: conda.yaml
+    loader_module: mlflow.spark
+    python_version: 3.7.3
+  spark:
+    model_data: sparkml
+    pyspark_version: 2.4.5.dev0
+run_id: 91255b216468498788c3487b488c00a7
+utc_time_created: '2019-11-28 07:42:23.980583'
